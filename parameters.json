@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "a2a33beb-bfcc-4015-9d28-9db43c7eece5"
+        },
+        "resourceGroupName": {
+            "value": "RG1"
+        },
+        "name": {
+            "value": "kgf1"
+        },
+        "location": {
+            "value": "East US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-RG1-aef1"
+        },
+        "serverFarmResourceGroup": {
+            "value": "RG1"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "skuCode": {
+            "value": "B1"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "linuxFxVersion": {
+            "value": "PHP|8.2"
+        }
+    }
+}
